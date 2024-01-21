@@ -1,0 +1,123 @@
+version=54;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class Camera
+	{
+		pos[]={3324.3311,205.1358,3171.7644};
+		dir[]={-0.8359887,-0.2431377,0.49195269};
+		up[]={-0.2095523,0.96999049,0.12331471};
+		aside[]={0.50717211,-1.2503006e-007,0.86185139};
+	};
+};
+binarizationWanted=0;
+sourceName="Kholo";
+class AddonsMetaData
+{
+};
+randomSeed=14779171;
+class ScenarioData
+{
+	author="깨비15";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.40000001;
+		startFog=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.40000001;
+		forecastFog=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		wavesForced=1;
+		windForced=1;
+		year=2035;
+		month=3;
+		day=28;
+		hour=16;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+};
+addons[]=
+{
+	"A3_Ui_F",
+	"A3_Characters_F"
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=1;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="None";
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
+	class Category1
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="EnableDebugConsole";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
